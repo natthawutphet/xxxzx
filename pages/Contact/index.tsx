@@ -53,7 +53,7 @@ export default function page() {
            <p><strong>Address:</strong> Ads Manager 32 Soi 20 Charoenrat Road, <br /> Khlong San District, Bangkok 10160</p>
            <p><strong>Phone:</strong> 0956650050</p> 
            <p><strong>Email:</strong> admin@AdsManager.com</p>
-           <p>  <a href="https://lin.ee/JwrDPgA"><img src="/img/line.gif" alt="เพิ่มเพื่อน" width="250" /></a> </p>
+          
            <p> line : @adsmanager </p>
            <a href="tel:0956650050">0956650050</a>
        

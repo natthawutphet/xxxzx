@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head';
+import Image from 'next/image';
 
 
 export default function page() {
@@ -40,7 +41,10 @@ export default function page() {
 
 </p>
 <div className="text-center">
-    <img src="/img/class.jpg" width="80%" alt="class" />
+
+    <Image src="/img/class.jpg" alt="Description" width={500} height={300} />
+
+
 </div>
 <hr />
 <ul>
