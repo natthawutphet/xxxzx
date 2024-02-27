@@ -22,25 +22,25 @@ export default function Nav() {
         <div className="navbar-collapse collapse" id="navbarContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item ">
-              <Link className="nav-link" href="/">Home</Link>
+              <Link className="nav-link" href="/">  <a>Home</a> </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" href="Post">Post</Link>
+              <Link className="nav-link" href="Post"><a>Post</a></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="Facebook">Facebook</Link>
+              <Link className="nav-link" href="Facebook"><a>Facebook</a></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="Google">Google</Link>
+              <Link className="nav-link" href="Google"> <a>Google</a></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="Class">Class</Link>
+              <Link className="nav-link" href="Class"><a>Class</a></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="Dowloads">Dowloads Free</Link>
+              <Link className="nav-link" href="Dowloads"><a>Dowloads </a></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="Contact">Contact</Link>
+              <Link className="nav-link" href="Contact"><a>Contact</a></Link>
             </li>
             <li className="nav-item">
               <a href="https://lin.ee/JwrDPgA"><Image src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" /></a>
