@@ -1,6 +1,7 @@
 // pages/download.tsx
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const DownloadPage: React.FC = () => {
   const [timer, setTimer] = useState<NodeJS.Timeout | null>(null);
@@ -41,7 +42,7 @@ const DownloadPage: React.FC = () => {
         <section className='p-2 flex-fill' >
           <h2>Google Templates ทำโฆษณา Google</h2> <br /><br />
           <div className="text-center">  
-          <img src="gg.png" className='gg' alt="Google Ads" />   <br /><br />
+          <Image src="gg.png" className='gg' alt="Google Ads" />   <br /><br />
              
           </div>
           <button className='btn btn-success' onClick={() => startDownload('/Google.zip')}>
@@ -57,7 +58,7 @@ const DownloadPage: React.FC = () => {
           <h2>Facebook Templates ทำโฆษณา Facebook</h2>
           <div className="text-center">  
 
-          <img src="fb.png" className='fb' alt="Facebook Ads" />
+          <Image src="fb.png" className='fb' alt="Facebook Ads" />
           
           </div>
           <button className='btn btn-primary' onClick={() => startDownload('/facebook.zip')}>

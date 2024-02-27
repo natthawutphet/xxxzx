@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 
 export default function reveiws() {
   return (
@@ -12,19 +12,19 @@ export default function reveiws() {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review1.jpg" className="d-block w-100" alt="reveiws"/>
+      <Image src="review/review1.jpg" className="d-block w-100" alt="reveiws"/>
       <label>รีวิวการใช้งานจากลูกค้าจริง 01</label>
     </div>
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review2.jpg" className="d-block w-100" alt="reveiws"/>
+      <Image src="review/review2.jpg" className="d-block w-100" alt="reveiws"/>
       <label>รีวิวการใช้งานจากลูกค้าจริง 02</label>
     </div>
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review3.jpg" className="d-block w-100" alt="reveiws"/>
+      <Image src="review/review3.jpg" className="d-block w-100" alt="reveiws"/>
       <label>รีวิวการใช้งานจากลูกค้าจริง 03</label>
     </div>
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review4.jpg" className="d-block w-100" alt="reveiws"/>
+      <Image src="review/review4.jpg" className="d-block w-100" alt="reveiws"/>
       <label>รีวิวการใช้งานจากลูกค้าจริง 04</label>
     </div>
   </div>
@@ -48,15 +48,15 @@ export default function reveiws() {
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review01.jpg" className="d-blocka w-100" alt="reveiws"/>
+      <Image src="review/review01.jpg" className="d-blocka w-100" alt="reveiws"/>
      <br /> <label>รีวิวการใช้งานจากลูกค้าจริง 01</label>
     </div>
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review02.jpg" className="d-blocka w-100" alt="reveiws"/>
+      <Image src="review/review02.jpg" className="d-blocka w-100" alt="reveiws"/>
      <br /> <label>รีวิวการใช้งานจากลูกค้าจริง 02</label>
     </div>
     <div className="carousel-item active" data-bs-interval="2000">
-      <img src="review/review03.jpg" className="d-blocka w-100" alt="reveiws"/>
+      <Image src="review/review03.jpg" className="d-blocka w-100" alt="reveiws"/>
      <br /> <label>รีวิวการใช้งานจากลูกค้าจริง 03</label>
     </div>
   

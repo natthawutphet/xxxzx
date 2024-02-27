@@ -38,18 +38,18 @@ export default function page() {
                  <li>บัตรเครดิต สำหรับชำระค่าโฆษณา ให้กลับFacebook Ads สามารถใช้บัตรของทางลูกค้าเองได้เลย หรือ จะใช้บัตรที่ทางเราเตรียมไว้ให้ก็ได้ ไม่บวกเพิ่ม(แนะนำ) </li>
                   <li>ขอบคุณลูกค้าทุกท่านที่ใช้บริการทีมงานเราครับผม</li>
        
-          <img src="facebook_Ads_สายเทา/facebook-ads.jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (11).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (1).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (2).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (3).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (4).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (5).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (6).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (7).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (8).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (9).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
-          <img src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (10).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/facebook-ads.jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (11).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (1).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (2).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (3).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (4).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (5).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (6).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (7).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (8).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (9).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
+          <Image src="facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (10).jpg"  alt="โฆษณา_FaceBook_Ads_สายเทา"/><p><a href="https://ads-webapp.com">โฆษณา_FaceBook_สายเทา</a></p>
           
            </div>
 

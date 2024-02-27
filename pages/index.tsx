@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className="col-md-6 py-5 wow zoomIn">
             <div className="img-fluid text-center">
-              <img src="/img/facebook_ads.jpg" width="100%" alt="facebook_ads"/>
+              <Image src="/img/facebook_ads.jpg"  alt="facebook_ads"/>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="col-lg-4">
           <div className="card-service wow fadeInUp">
             <div className="header">
-              <img src="/img/Facebook.png" alt="Facebook dark"/>
+              <Image src="/img/Facebook.png" alt="Facebook dark"/>
             </div>
             <div className="body">
               <h5 className="text-secondary">รับทำโฆษณา Facebook Ads สายเทา</h5>
@@ -70,7 +70,7 @@ export default function Home() {
 
 
             <div className="header">
-              <img src="/img/Google.png" width="100%" alt="Google-ads"/>
+              <Image src="/img/Google.png"  alt="Google-ads"/>
             </div>
             <div className="body">
               <h5 className="text-secondary">รับทำ โฆษณาGoogle สายเทา</h5>
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="col-lg-4">
           <div className="card-service wow fadeInUp">
             <div className="header">
-              <img src="/img/class.jpg" width="100%" alt="คอร์สเรียนโฆษณาออนไลน์"/>
+              <Image src="/img/class.jpg"  alt="คอร์สเรียนโฆษณาออนไลน์"/>
             </div>
             <div className="body">
               <h5 className="text-secondary">คอร์สสอนทำโฆษณา Google Facebook สายเทา</h5>
@@ -119,7 +119,7 @@ export default function Home() {
         </div>
         <div className="col-lg-6 py-3 wow fadeInRight">
           <div className="img-fluid py-3 text-center">
-            <img src="/img/logo.png" alt="Google"/>
+            <Image src="/img/logo.png" alt="Google"/>
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ export default function Home() {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col">
           <div className="card">
-            <img src="Google/Google (1).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (1).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิวผลงาน Google สายเทา</h5>
               <p className="card-text">รับทำโฆษณา ออนไลน์ สายเทา
@@ -153,7 +153,7 @@ export default function Home() {
         </div>
         <div className="col">
           <div className="card">
-            <img src="Google/Google (2).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (2).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">สร้างแบรนด์ด้วยโฆษณาออนไลน์สายเทา บริการตลาดบน Facebook, Google, YouTube</p>
@@ -162,7 +162,7 @@ export default function Home() {
         </div>
         <div className="col">
           <div className="card">
-            <img src="Google/Google (3).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (3).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ประสบการณ์บริการโฆษณาออนไลน์สายเทาที่เหนือชั้น ด้วยการส่งมอบผลลัพธ์ที่รวดเร็วและตรงตามเวลาที่กำหนด! ค้นหาทีมงานมืออาชีพที่คุณสามารถไว้วางใจได้ พร้อมการดูแลลูกค้าอย่างไม่มีที่ติบน Facebook, YouTube และ Google
@@ -173,7 +173,7 @@ export default function Home() {
         </div>
         <div className="col">
           <div className="card">
-            <img src="Google/Google (4).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (4).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ในปัจจุบัน Google และ Facebook หรือช่องทางการทำตลาดออนไลน์ต่างๆได้เปลี่ยนไปอย่างมาก โดยที่เน้นเรื่องของ Content เป็นหลัก พวกเขาสร้างกฏเกณฑ์มากมายในการลิมิตผู้ใช้งานทำการตลาดให้ตรง</p>
@@ -186,7 +186,7 @@ export default function Home() {
 
         <div className="col">
           <div className="card">
-            <img src="Google/Google (5).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (5).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิวผลงาน Google สายเทา</h5>
               <p className="card-text">รับทำโฆษณา ออนไลน์ สายเทา
@@ -198,7 +198,7 @@ export default function Home() {
         </div>
         <div className="col">
           <div className="card">
-            <img src="Google/Google (6).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (6).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">สร้างแบรนด์ด้วยโฆษณาออนไลน์สายเทา บริการตลาดบน Facebook, Google, YouTube</p>
@@ -207,7 +207,7 @@ export default function Home() {
         </div>
         <div className="col">
           <div className="card">
-            <img src="Google/Google (7).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (7).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ประสบการณ์บริการโฆษณาออนไลน์สายเทาที่เหนือชั้น ด้วยการส่งมอบผลลัพธ์ที่รวดเร็วและตรงตามเวลาที่กำหนด! ค้นหาทีมงานมืออาชีพที่คุณสามารถไว้วางใจได้ พร้อมการดูแลลูกค้าอย่างไม่มีที่ติบน Facebook, YouTube และ Google
@@ -218,7 +218,7 @@ export default function Home() {
         </div>
         <div className="col">
           <div className="card">
-            <img src="Google/Google (8).jpg" className="card-img-top" alt="Google Ads"/>
+            <Image src="Google/Google (8).jpg" className="card-img-top" alt="Google Ads"/>
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ในปัจจุบัน Google และ Facebook หรือช่องทางการทำตลาดออนไลน์ต่างๆได้เปลี่ยนไปอย่างมาก โดยที่เน้นเรื่องของ Content เป็นหลัก พวกเขาสร้างกฏเกณฑ์มากมายในการลิมิตผู้ใช้งานทำการตลาดให้ตรง</p>

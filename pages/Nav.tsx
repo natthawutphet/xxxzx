@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles/Nav.module.css'
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Nav() {
   return (
@@ -10,7 +11,7 @@ export default function Nav() {
      
         <a href="/" className="navbar-brand">
           
-          <img src="/img/logo.png" className='logo' alt="logo"/>
+          <Image src="/img/logo.png" className='logo' alt="logo"/>
           
           </a>
 
@@ -42,7 +43,7 @@ export default function Nav() {
               <Link className="nav-link" href="Contact">Contact</Link>
             </li>
             <li className="nav-item">
-              <a href="https://lin.ee/JwrDPgA"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" /></a>
+              <a href="https://lin.ee/JwrDPgA"><Image src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" height="36" /></a>
             </li>
           </ul>
         </div>
