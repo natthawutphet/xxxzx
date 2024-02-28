@@ -7,7 +7,11 @@ import Head from 'next/head'
 export default function index() {
   return (
     <>
-      
+        <Head>
+           <title>รับทำโฆษณาGoogleAdsสายเทา รีวิวจากลูกค้าจริง ลูกค้าประจำแนะนำเพื่อนบอกต่อปากต่อปาก การันตีผลงานให้ด้วย</title>
+           <meta name="description" content="รีวิวจากลูกค้าจริง ลูกค้าประจำแนะนำเพื่อนบอกต่อปากต่อปาก การันตีผลงานให้ด้วย"/>
+
+    </Head>
 
     <div className="container">
       
