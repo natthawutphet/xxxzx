@@ -26,10 +26,10 @@ export default function Nav() {
           <Link className="nav-link active" aria-current="page" href="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/facebook">facebook</Link>
+          <Link className="nav-link" href="/Facebook">Facebook</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/">google</Link>
+          <Link className="nav-link" href="/Google">Google</Link>
         </li>
       </ul>
       <span className="navbar-text">
