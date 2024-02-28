@@ -32,21 +32,130 @@ export default function page() {
 
       
 
-
-
-                  <Image src="/facebook_Ads_สายเทา/facebook-ads.jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (11).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive"/><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (1).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive"/><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (2).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive"/><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (3).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (4).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (5).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (6).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (7).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (8).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (9).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-                  <Image src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (10).jpg" alt="โฆษณา_FaceBook_Ads_สายเทา" width={1080} height={1080}  layout="responsive" /><p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
-             
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/facebook-ads.jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (11).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (1).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (2).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (3).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (4).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (5).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (6).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (7).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (8).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (9).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                  <div style={{ position: 'relative', width: '100%', height: '700px' }}>
+  <Image
+    src="/facebook_Ads_สายเทา/โฆษณา_FaceBook_Ads_สายเทา (10).jpg"
+    alt="Facebook Ads"
+    fill
+    style={{ objectFit: 'cover' }}
+  />
+</div>
+<p><Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></p>
+                 {/* ---------------- */}
+                 
+                 
+                 
+                
            </div>
 
       

@@ -23,30 +23,41 @@ export default function Nav() {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+          <Link className="nav-linkactive" aria-current="page" href="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/Facebook">Facebook</Link>
+          <Link className="nav-linkactive" href="/Facebook">Facebook</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/Google">Google</Link>
+          <Link className="nav-linkactive" href="/Google">Google</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-linkactive" href="/Course">สอนโฆษณาออนไลน์</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-linkactive" href="/Interesting">สาระน่ารู้</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-linkactive" href="/Contact">ข้อมูลติดต่อเรา</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-linkactive" href="/Reviews">รีวิวจากลูกค้าจริง</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-linkactive" href="/Dowloads">เครื่องมือแจกฟรี</Link>
         </li>
       </ul>
       <span className="navbar-text">
-   
+      <Link className="line" href="https://lin.ee/JwrDPgA">
+    
+    <Image src="/line.gif" alt="Favicon" width={60} height={60} />
+    </Link>
    
       </span>
     </div>
   </div>
 </nav>
-    <header className="header">
-
-
-
-       
-
-
-    </header>
+ 
 
 
 

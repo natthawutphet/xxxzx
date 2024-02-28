@@ -8,3 +8,22 @@ nav {
     overflow: hidden;
 }
 
+.nav-linkactive {
+    text-decoration: none; /* ลบเส้นใต้ */
+    color: #000000; /* เปลี่ยนสีตัวอักษร */
+    transition: color 0.3s ease; /* ทำให้การเปลี่ยนสีมีแอนิเมชัน */
+    margin-left: 20px;
+  }
+  
+  .nav-linkactive:hover {
+    color: #ffffff; /* เปลี่ยนสีตัวอักษรเมื่อโฮเวอร์ */
+    text-decoration: underline; /* หรือคุณอาจเลือกเพิ่มเส้นใต้เมื่อโฮเวอร์ หากต้องการ */
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 5px 10px ;
+  }
+  
+.reveiws {
+  max-width: 600px;
+  margin: auto;
+}

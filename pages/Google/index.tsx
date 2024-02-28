@@ -35,7 +35,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -44,7 +44,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -53,7 +53,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -62,7 +62,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -71,7 +71,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -80,7 +80,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -89,7 +89,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -98,7 +98,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
@@ -107,7 +107,7 @@ export default function index() {
       alt="Google_Ads_สายเทา" 
       width={1080} 
       height={1080} 
-      layout="responsive" 
+       
     />
     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
 {/* ------------ */}
