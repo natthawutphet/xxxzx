@@ -7,7 +7,11 @@ import Head from 'next/head'
 export default function index() {
   return (
     <>
-      
+      <Head>
+           <title>รับทำโฆษณาGoogleAdsสายเทา โฆษณาสายเทาเพื่อธุรกิจของคุณ</title>
+           <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมือถือชีพ อัตราค่าบริการเพียงเดือนละ 9,900 บาทจบไม่มีค่าใช้จ่ายใดๆเพิ่มเติมทั้งสิ้น มีรีวิวจากลูกค้าจริงให้ชมไม่บิดไม่ทิ้งงานแน่นอน ทางทีมงานมีการรายงานผลงานทุกวัน"/>
+
+    </Head>
 
     <div className="container">
       

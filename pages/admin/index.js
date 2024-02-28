@@ -62,7 +62,7 @@ function HomePage() {
       <ul>
         {posts.map((post) => (
           <li key={post.id}>
-            {post.title} - {post.h_line} - <img src={post.img} width="50" /> - {post.ppp}
+           
             <button onClick={() => deletePost(post.id)}>Delete</button>
           </li>
         ))}
