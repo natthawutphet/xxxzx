@@ -37,7 +37,7 @@ export default function Document() {
 <meta name="twitter:description" content="รับทำโฆษณาออนไลน์สายเทา ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-
+<meta name="google-site-verification" content="PbQl1IGdzrIFiFnnE39varHoAFip5AIAk4QLxK-Nyto" />
 
 
       <Head />
