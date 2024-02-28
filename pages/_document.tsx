@@ -1,6 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
+
 import Nav from "./Nav";
 import Footer from "./Footer";
+
 
 
 
@@ -33,7 +35,7 @@ export default function Document() {
 <meta name="twitter:image" content="https://www.servermanagerads.com/img/logo.png" />
 <meta name="twitter:title" content="Tiรับทำโฆษณาออนไลน์สายเทา" />
 <meta name="twitter:description" content="รับทำโฆษณาออนไลน์สายเทา ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook" />
-
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 
 
@@ -42,11 +44,20 @@ export default function Document() {
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
 
       <body>
-        <Nav/>
+
+   
+        < Nav />
+
+        
         <Main />
+
+        < Footer />
         <NextScript />
-        <Footer/>
+
+
+    
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" async ></script>
+     
       </body>
     </Html>
   );

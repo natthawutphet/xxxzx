@@ -1,0 +1,9 @@
+nav {
+    background-color: rgb(194, 195, 194);
+}
+
+.fxxx {
+    border: solid;
+    display: flex;
+    overflow: hidden;
+}
