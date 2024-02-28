@@ -27,95 +27,57 @@ export default function index() {
     <li>บัตรเครดิต สำหรับชำระค่าโฆษณา ให้กลับGoogle Ads สามารถใช้บัตรของทางลูกค้าเองได้เลย หรือ จะใช้บัตรที่ทางเราเตรียมไว้ให้ก็ได้ ไม่บวกเพิ่ม(แนะนำ) </li>
      <li>ขอบคุณลูกค้าทุกท่านที่ใช้บริการทีมงานเราครับผม</li>
      </ul>
-     <div className="d-flex align-content-around flex-wrap">
-     <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-      <div className="googleimg">  
-     <Image
-      src="/GoogleAds/gg.jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (1).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (2).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (3).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (4).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (5).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (6).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (7).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
-     <Image
-      src="/Google/Google (8).jpg" 
-      alt="Google_Ads_สายเทา" 
-      width={1080} 
-      height={1080} 
-       
-    />
-    <Link href='/'>โฆษณา Google Ads สายเทา</Link>
-{/* ------------ */}
 
+     <div className="image-container">
+          <Image src="/GoogleAds/gg.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(1).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(2).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(3).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(4).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(5).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(6).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+    
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(8).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(9).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(10).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+     <div className="image-container">
+          <Image src="/GoogleAds/Google_Ads(11).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
 
 </div>
-    </div>
-    </div>
+  
+   
+
+    <style jsx>{`
+        .image-container {
+          position: relative;
+          width: 100%;
+          height: 0;
+          padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
+        }
+        .image {
+          objectFit: cover;
+        }
+      `}</style>
     </>
   )
 }

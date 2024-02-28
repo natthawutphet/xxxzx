@@ -16,6 +16,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/posts.js", "pages/api/db.js", "pages/admin/index.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/posts.js", "pages/api/db.js", "pages/admin/index.js", "pages/Facebook/index.jsx", "pages/Facebook/index.jsx"],
   "exclude": ["node_modules"]
 }

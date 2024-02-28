@@ -6,7 +6,7 @@ function HomePage() {
 
   useEffect(() => {
     // ดึงข้อมูลโพสต์
-    fetch('https://api.service-ads.com/api')
+    fetch('https://api.service-ads.com/Api')
       .then((res) => res.json())
       .then(setPosts);
   }, []);
@@ -50,21 +50,19 @@ function HomePage() {
       <Head>
         <title>Posts Manager</title>
       </Head>
-
-      <div className="container">  
       <h1>Add New Post</h1>
       <form onSubmit={addPost}>
-        <input name="title" placeholder="Title" required className='form-control' />  <br />
-        <input name="h_line" placeholder="Head Line" required className='form-control'/><br />
-        <input name="img" placeholder="Image URL" required className='form-control'/><br />
-        <input name="ppp" placeholder="PPP" required className='form-control'/><br />
+        <input name="title" placeholder="Title" required />
+        <input name="h_line" placeholder="Head Line" required />
+        <input name="img" placeholder="Image URL" required />
+        <input name="ppp" placeholder="PPP" required />
         <button type="submit">Add Post</button>
-      </form></div>
+      </form>
       <h2>Posts</h2>
       <ul>
         {posts.map((post) => (
           <li key={post.id}>
-            {post.title} - {post.h_line} - <img src={post.img} width="50%" /> - {post.ppp}
+            {post.title} - {post.h_line} - <img src={post.img} width="50" /> - {post.ppp}
             <button onClick={() => deletePost(post.id)}>Delete</button>
           </li>
         ))}
