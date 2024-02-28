@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -13,9 +17,22 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/posts.js", "pages/api/db.js", "pages/admin/index.js", "pages/Facebook/index.jsx", "pages/Facebook/index.jsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/api/posts.js",
+    "pages/api/db.js",
+    "pages/admin/index.tsx",
+    "pages/Facebook/index.jsx"
+  ],
+  "moduleResolution": "node",
+  "exclude": [
+    "node_modules"
+  ]
 }

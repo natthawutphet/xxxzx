@@ -6,7 +6,7 @@ function HomePage() {
 
   useEffect(() => {
     // ดึงข้อมูลโพสต์
-    fetch('https://api.service-ads.com/Api')
+    fetch('https://api.service-ads.com/api')
       .then((res) => res.json())
       .then(setPosts);
   }, []);

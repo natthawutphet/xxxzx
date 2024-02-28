@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 export default function Reviews() {
   return (
+    <>
     <div className="reviews">
       <div className="a">
         <h5>รีวิวจากลูกค้าจริง ลูกค้าประจำแนะนำเพื่อนบอกต่อปากต่อปาก การันตีผลงานให้ด้วย</h5>
@@ -41,17 +42,32 @@ export default function Reviews() {
   
   <h5>รีวิวจากลูกค้าจริง ขอปรับงบเพิ่ม จาก5,000บาท/วัน เป็น 10,000 บาท/วัน</h5>
   <div className="fxxx">
-        <Image src="/review/review01.jpg" alt="Review 01" width={300} height={500} className='img' />
-      
 
-        <Image src="/review/review02.jpg" alt="Review 02" width={300} height={500} className='img'/>
-   
-        <Image src="/review/review03.jpg" alt="Review 03" width={300} height={500} className='img'/>
+        <div className="image-container">
+          <Image src="/review/review01.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div>
+        <div className="image-container">
+          <Image src="/review/review02.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div>
+        <div className="image-container">
+          <Image src="/review/review03.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div>
+
        
   </div>
       </div>
       
-     
-
+      <style jsx>{`
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
+      }
+      .image {
+        objectFit: cover;
+      }
+    `}</style>
+ </>
   );
 }

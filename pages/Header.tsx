@@ -23,7 +23,10 @@ export default function Header() {
           <div className="col-md-6 py-5 wow zoomIn">
             <div className="img-fluid text-center">
            
-              <Image src="/img/facebook_ads.jpg" alt="Facebook Ads" width={300} height={300} className='img'/>
+
+              <div className="image-container">
+          <Image src="/img/facebook_ads.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Facebook Ads สายเทา</Link>
             </div>
           </div>
         </div>
@@ -45,7 +48,10 @@ export default function Header() {
         <div className="col-lg-4">
           <div className="card-service wow fadeInUp">
             <div className="header">
-              <Image src="/img/Facebook.png" alt="Facebook Ads" width={300} height={300} className='img'/>
+  
+              <div className="image-container">
+          <Image src="/img/Facebook.png" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Facebook Ads สายเทา</Link>
             </div>
             <div className="body">
               <h5 className="text-secondary">รับทำโฆษณา Facebook Ads สายเทา</h5>
@@ -64,8 +70,10 @@ export default function Header() {
 
 
             <div className="header">
- 
-              <Image src="/img/Google.png" alt="โฆษณาGoogle" width={300} height={300} className='img'/>
+
+              <div className="image-container">
+          <Image src="/img/Google.png" alt="Google Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
             </div>
             <div className="body">
               <h5 className="text-secondary">รับทำ โฆษณาGoogle สายเทา</h5>
@@ -82,7 +90,10 @@ export default function Header() {
           <div className="card-service wow fadeInUp">
             <div className="header">
 
-              <Image src="/img/class.jpg" alt="คอร์สสอนทำโฆษณา" width={300} height={200} className='img'/>
+        
+              <div className="image-container">
+          <Image src="/img/class.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
 
             </div>
             <div className="body">
@@ -117,7 +128,10 @@ export default function Header() {
         <div className="col-lg-6 py-3 wow fadeInRight">
           <div className="img-fluid py-3 text-center">
    
-            <Image src="/img/logo.png" alt="สายเทา" width={300} height={300} className='img'/>
+
+            <div className="image-container">
+          <Image src="/img/logo.png" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
           </div>
         </div>
       </div>
@@ -140,7 +154,11 @@ export default function Header() {
         <div className="col">
           <div className="card">
   
-            <Image src="/Google/Google (1).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+            <div className="image-container">
+          <Image src="/Google/Google (1).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิวผลงาน Google สายเทา</h5>
               <p className="card-text">รับทำโฆษณา ออนไลน์ สายเทา
@@ -153,7 +171,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
 
-            <Image src="/Google/Google (2).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (2).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">สร้างแบรนด์ด้วยโฆษณาออนไลน์สายเทา บริการตลาดบน Facebook, Google, YouTube</p>
@@ -163,7 +184,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
 
-            <Image src="/Google/Google (3).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (3).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ประสบการณ์บริการโฆษณาออนไลน์สายเทาที่เหนือชั้น ด้วยการส่งมอบผลลัพธ์ที่รวดเร็วและตรงตามเวลาที่กำหนด! ค้นหาทีมงานมืออาชีพที่คุณสามารถไว้วางใจได้ พร้อมการดูแลลูกค้าอย่างไม่มีที่ติบน Facebook, YouTube และ Google
@@ -175,7 +199,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
 
-            <Image src="/Google/Google (4).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (4).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ในปัจจุบัน Google และ Facebook หรือช่องทางการทำตลาดออนไลน์ต่างๆได้เปลี่ยนไปอย่างมาก โดยที่เน้นเรื่องของ Content เป็นหลัก พวกเขาสร้างกฏเกณฑ์มากมายในการลิมิตผู้ใช้งานทำการตลาดให้ตรง</p>
@@ -189,7 +216,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
 
-            <Image src="/Google/Google (5).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (5).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิวผลงาน Google สายเทา</h5>
               <p className="card-text">รับทำโฆษณา ออนไลน์ สายเทา
@@ -202,7 +232,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
 
-            <Image src="/Google/Google (6).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (6).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">สร้างแบรนด์ด้วยโฆษณาออนไลน์สายเทา บริการตลาดบน Facebook, Google, YouTube</p>
@@ -212,7 +245,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
 
-            <Image src="/Google/Google (7).jpg" alt="Google สายเทา" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (7).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
               <p className="card-text">ประสบการณ์บริการโฆษณาออนไลน์สายเทาที่เหนือชั้น ด้วยการส่งมอบผลลัพธ์ที่รวดเร็วและตรงตามเวลาที่กำหนด! ค้นหาทีมงานมืออาชีพที่คุณสามารถไว้วางใจได้ พร้อมการดูแลลูกค้าอย่างไม่มีที่ติบน Facebook, YouTube และ Google
@@ -224,7 +260,10 @@ export default function Header() {
         <div className="col">
           <div className="card">
  
-            <Image src="/Google/Google (8).jpg" alt="Review 03" width={300} height={200} className='img'/>
+          <div className="image-container">
+          <Image src="/Google/Google (8).jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
+
   
             <div className="card-body">
               <h5 className="card-title">รูปภาพรีวิว ผลงาน Google สายเทา</h5>
@@ -279,7 +318,17 @@ export default function Header() {
 
 </section>
 
-
+<style jsx>{`
+        .image-container {
+          position: relative;
+          width: 100%;
+          height: 0;
+          padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
+        }
+        .image {
+          objectFit: cover;
+        }
+      `}</style>
 
 
   </>

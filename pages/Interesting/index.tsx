@@ -24,6 +24,7 @@ export default function Home() {
   }, []);
 
   return (
+    <> 
     <div>
       <Head>
         <title>Posts Page</title>
@@ -38,14 +39,27 @@ export default function Home() {
               <h2>{post.title}</h2>
               <p>{post.h_line}</p>
 
-          
-              {post.img && <img src={post.img} alt={post.title} style={{ width: "100px" }} />}
+              <div className="image-container">
+              {post.img && <Image src={post.img} alt={post.title} fill className="image" style={{ objectFit: 'cover' }} />}
+              </div>
               <p>PPP: {post.ppp}</p>
             </li>
           ))}
         </ul>
       </main>
     </div>
+      <style jsx>{`
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
+      }
+      .image {
+        objectFit: cover;
+      }
+    `}</style>
+    </>
   );
 }
 

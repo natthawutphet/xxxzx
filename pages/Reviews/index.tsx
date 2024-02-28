@@ -23,66 +23,21 @@ export default function index() {
 
 <div className="card-group">
   <div className="card">
-  <Image
-      src="/review/review1.jpg" 
-      alt="Review" 
-      width={1000} 
-      height={250} 
-     
-    />   
-     <div className="card-body">
-      <h5 className="card-title"></h5>
-      <p className="card-text">รีวิวการใช้งานจากลูกค้าจริง 01
-     </p>
-      <p className="card-text"></p>
-    </div>
-  </div>
-  <div className="card">
-  <Image
-      src="/review/review2.jpg" 
-      alt="Review" 
-      width={1000} 
-      height={250} 
-     
-    />      <div className="card-body">
-    <h5 className="card-title"></h5>
-    <p className="card-text">รีวิวการใช้งานจากลูกค้าจริง 02
-   </p>
-    <p className="card-text"></p>
-  </div>
-</div>
-<div className="card">
-  <Image
-      src="/review/review3.jpg" 
-      alt="Review" 
-      width={1000} 
-      height={250} 
-     
-    />     <div className="card-body">
-    <h5 className="card-title"></h5>
-    <p className="card-text">รีวิวการใช้งานจากลูกค้าจริง 03
-   </p>
-    <p className="card-text"></p>
-  </div>
-</div>
-<div className="card">
-  <Image
-      src="/review/review4.jpg" 
-      alt="Review" 
-      width={1000} 
-      height={250} 
-     
-    />     <div className="card-body">
-    <h5 className="card-title"></h5>
-    <p className="card-text">รีวิวการใช้งานจากลูกค้าจริง 04
-   </p>
-    <p className="card-text"></p>
-  </div>
-</div>
-</div>
+ 
+  <div className="image-container">
+          <Image src="/review/review1.jpg" alt="Review" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">รีวิวการใช้งานจากลูกค้าจริง </Link>
+  <div className="image-container">
+          <Image src="/review/review2.jpg" alt="Review" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">รีวิวการใช้งานจากลูกค้าจริง </Link>
+  <div className="image-container">
+          <Image src="/review/review3.jpg" alt="Review" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">รีวิวการใช้งานจากลูกค้าจริง </Link>
+  <div className="image-container">
+          <Image src="/review/review4.jpg" alt="Review" fill className="image" style={{ objectFit: 'cover' }} />
+        </div><Link href="/">รีวิวการใช้งานจากลูกค้าจริง </Link>
 
-<hr /><hr />
-   
+        </div></div>
  {/* ----------------------------------------------------- */}
  <div className="text-center">
 <h5>รีวิวจากลูกค้าจริง ขอปรับงบเพิ่ม จาก5,000บาท/วัน เป็น 10,000 บาท/วัน</h5>
@@ -137,7 +92,17 @@ export default function index() {
 
 
     </div>
-
+    <style jsx>{`
+        .image-container {
+          position: relative;
+          width: 100%;
+          height: 0;
+          padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
+        }
+        .image {
+          objectFit: cover;
+        }
+      `}</style>
     </>
   )
 }
