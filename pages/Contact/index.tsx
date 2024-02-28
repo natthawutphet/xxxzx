@@ -7,6 +7,11 @@ import Head from 'next/head'
 export default function index() {
   return (
     <>
+      <Head>
+           <title>ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook</title>
+           <meta name="description" content="ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook"/>
+
+    </Head>
 
 <section >
       <div className="container contact-page text-center">
@@ -40,7 +45,7 @@ export default function index() {
             
            <Link className="navbar-brand" href="/">
     
-    <Image src="/line.gif" alt="Favicon" width={60} height={60} />
+    <Image src="/line.gif" alt="Favicon" width={60} height={60}  />
 
 
     

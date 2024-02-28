@@ -78,13 +78,10 @@ export default function index() {
 </ul>
 <Link className="line" href="https://lin.ee/JwrDPgA">
 
-    <Image
-      src="/line.gif" 
-      alt="contact" 
-      width={1080} 
-      height={1080} 
-      layout="responsive" 
-    />
+<div style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <Image src="/line.gif" alt="Line" fill style={{ objectFit: 'cover' }} />
+    </div>
+
     </Link>
 </div>
 

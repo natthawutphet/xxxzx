@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Head from 'next/head'
+
 const CountdownModal = ({ isOpen, onCountdownComplete, initialCount = 30 }: { isOpen: boolean; onCountdownComplete: () => void; initialCount?: number }) => {
   const [count, setCount] = useState(initialCount);
 
@@ -55,6 +57,12 @@ const DownloadButtonWithCountdown = ({ fileName, url }: { fileName: string; url:
 const App = () => {
   return (
     <>  
+
+<Head>
+           <title>Download template website สำหรับทำโฆษณาสายเทา ฟรี</title>
+           <meta name="description" content="Download template website สำหรับทำโฆษณาสายเทา ฟรี"/>
+
+    </Head>
     <div className="container text-center" >
       <h1>Download Files</h1>
 

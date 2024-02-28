@@ -24,8 +24,8 @@ export default function index() {
 <div className="card-group">
   <div className="card">
   <Image
-      src="/Review/review1.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review1.jpg" 
+      alt="Review" 
       width={1000} 
       height={250} 
      
@@ -39,8 +39,8 @@ export default function index() {
   </div>
   <div className="card">
   <Image
-      src="/Review/review2.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review2.jpg" 
+      alt="Review" 
       width={1000} 
       height={250} 
      
@@ -53,8 +53,8 @@ export default function index() {
 </div>
 <div className="card">
   <Image
-      src="/Review/review3.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review3.jpg" 
+      alt="Review" 
       width={1000} 
       height={250} 
      
@@ -67,8 +67,8 @@ export default function index() {
 </div>
 <div className="card">
   <Image
-      src="/Review/review4.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review4.jpg" 
+      alt="Review" 
       width={1000} 
       height={250} 
      
@@ -92,8 +92,8 @@ export default function index() {
  <div className="card-group">
   <div className="card">
   <Image
-      src="/Review/review01.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review01.jpg" 
+      alt="Review" 
       width={1080} 
       height={1080} 
      
@@ -107,8 +107,8 @@ export default function index() {
   </div>
   <div className="card">
   <Image
-      src="/Review/review02.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review02.jpg" 
+      alt="Review" 
       width={1080} 
       height={1080} 
      
@@ -121,8 +121,8 @@ export default function index() {
 </div>
 <div className="card">
   <Image
-      src="/Review/review03.jpg" 
-      alt="Google_Ads_สายเทา" 
+      src="/review/review03.jpg" 
+      alt="Review" 
       width={1080} 
       height={1080} 
      
