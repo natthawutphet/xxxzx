@@ -24,13 +24,9 @@ export default function index() {
 <div className="text-center">
    
 
-    <Image
-      src="/img/class.jpg" 
-      alt="คอร์สเรียนโฆษณาออนไลน์" 
-      width={1080} 
-      height={1080} 
-   
-    />
+<div className="image-container">
+          <Image src="/GoogleAds/gg.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+        </div>
 </div>
 <hr />
 <ul>
@@ -87,7 +83,17 @@ export default function index() {
 
 
 
-
+<style jsx>{`
+        .image-container {
+          position: relative;
+          width: 100%;
+          height: 0;
+          padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
+        }
+        .image {
+          objectFit: cover;
+        }
+      `}</style>
 
     </>
   )

@@ -28,6 +28,7 @@ export default function index() {
      <li>ขอบคุณลูกค้าทุกท่านที่ใช้บริการทีมงานเราครับผม</li>
      </ul>
 
+
      <div className="image-container">
           <Image src="/GoogleAds/gg.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
         </div><Link href="/">โฆษณา Google Ads สายเทา</Link>
