@@ -25,7 +25,7 @@ export default function index() {
    
 
 <div className="image-container">
-          <Image src="/GoogleAds/gg.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+          <Image src="/img/class.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
         </div>
 </div>
 <hr />
