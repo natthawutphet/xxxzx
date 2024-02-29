@@ -8,7 +8,7 @@ interface Post {
   h_line: string;
   img: string;
   ppp: string;
-}
+} 
 
 export default function Home() {
   const [posts, setPosts] = useState<Post[]>([]);
@@ -32,33 +32,21 @@ export default function Home() {
 
 
       <main className='container text-center'>
- <h1>Posts</h1>
+
         <ul>
           {posts.map(post => (
             <li key={post.id}>
-              <h2>{post.title}</h2>
-              <p>{post.h_line}</p>
-
-              <div className="image-container">
-              {post.img && <Image src={post.img} alt={post.title} fill className="image" style={{ objectFit: 'cover' }} />}
-              </div>
+              <h1>{post.title}</h1>
+              {post.img &&  <div className="image-container"> <Image src={post.img} alt={post.title} fill className="image" style={{ objectFit: 'cover' }} />  </div>}
+              <h3>{post.h_line}</h3>
               <p>PPP: {post.ppp}</p>
             </li>
+           
           ))}
         </ul>
       </main>
     </div>
-      <style jsx>{`
-      .image-container {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%; // สำหรับรูปภาพแบบ 16:9
-      }
-      .image {
-        objectFit: cover;
-      }
-    `}</style>
+   
     </>
   );
 }
