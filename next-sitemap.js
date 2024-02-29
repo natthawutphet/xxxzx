@@ -1,6 +1,6 @@
 module.exports = {
-  siteUrl: 'hthttps://servermanagerads.com',
-  generateRobotsTxt: true,
-  outDir: './public',
-  // additional options here
-};
+    siteUrl: 'https://servermanagerads.com/',
+    generateRobotsTxt: true, // (optional)
+    // คุณสามารถกำหนดการตั้งค่าอื่นๆ เพิ่มเติมได้ตามต้องการ
+  };
+  
