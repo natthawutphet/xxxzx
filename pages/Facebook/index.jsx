@@ -17,7 +17,7 @@ export default function page() {
       
       <div className="container">
            
-           <h3>รายละเอียดบริการ <Link href="https://service-ads.com/Facebook.html">รับทำโฆษณาFacebook Ads สายเทา</Link></h3> 
+           <h3>รายละเอียดบริการ <Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></h3> 
 
                 <li>ค่าบริการ เหมาจ่ารายเดือนเพียงเดือนละ 9,900 บาท ไม่มีค่าใช้ค่าใดใดเพิ่มเติมทั้งสิน</li>
                 <li>ทางเรารัน โฆษณาให้ ตลอดเาลา24ชม.(หรือตามลูกค้ากำหนด) จำนวน30วันเต็ม </li>
