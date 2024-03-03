@@ -78,6 +78,7 @@ li {
   list-style: none;
 }
 
+<<<<<<< HEAD
 .linec {
   width: 300px;
 }
@@ -91,4 +92,16 @@ li {
   .keyword {
    display: none;
   }
+=======
+.lineb {
+  width: 20%;
+}
+
+.cfb {
+  width: 50%;
+}
+
+.home {
+  width: 100%;
+>>>>>>> 734553101062016d53ab467d1fca18b86da67181
 }

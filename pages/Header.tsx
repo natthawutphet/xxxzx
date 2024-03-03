@@ -25,7 +25,7 @@ export default function Header() {
            
 
               <div className="image-container">
-          <Image src="/img/facebook_ads.jpg" alt="Facebook Ads" fill className="image" style={{ objectFit: 'cover' }} />
+          <img src="/img/ads.jpg" alt="Ads สายเทา" className='home' />
         </div><Link href="/">โฆษณา Facebook Ads สายเทา</Link>
             </div>
           </div>

@@ -32,7 +32,10 @@ export default function Nav() {
           <Link className="nav-linkactive" href="/Google">Google</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-linkactive" href="/Course">สอนโฆษณาออนไลน์</Link>
+          <Link className="nav-linkactive" href="/Course-Google">คอร์สโฆษณาGoogle</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-linkactive" href="/Course-Facebook">คอร์สโฆษณาFacebook</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-linkactive" href="/Course-Facebook">คอร์สโฆษณาFacebook</Link>

@@ -12,6 +12,7 @@ interface HomePageProps extends AppProps {
 export default function HomePage({ data }: HomePageProps) {
   return (
     <>
+<<<<<<< HEAD
     <Head>
         <title>รับทำโฆษณาออนไลน์สายเทา</title>
         <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมืออาชีพ" />
@@ -22,6 +23,12 @@ export default function HomePage({ data }: HomePageProps) {
 
 
 
+=======
+      <Head>
+        <title>รับทำโฆษณาออนไลน์สายเทา</title>
+        <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมืออาชีพ" />
+        <meta name="keywords" content="ยิงads,facebook,สายเทา" />
+>>>>>>> 734553101062016d53ab467d1fca18b86da67181
         <meta name="robots" content="index, follow" />
         <meta name="author" content="adsmanager" />
         <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา" />
@@ -75,7 +82,11 @@ export default function HomePage({ data }: HomePageProps) {
 <hr />
 <Link className="line" href="https://lin.ee/JwrDPgA">
 
+<<<<<<< HEAD
 <img src="line.gif" className="linec" alt="line" />
+=======
+<img src="line.gif" className='lineb' alt="line" />
+>>>>>>> 734553101062016d53ab467d1fca18b86da67181
 
     </Link>
 </div>

@@ -25,6 +25,7 @@ export default function Home() {
 
   return (
     <> 
+<<<<<<< HEAD
 
     <Head>
         <title>สาระเนื้อหา ความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา</title>
@@ -36,6 +37,13 @@ export default function Home() {
 
 
 
+=======
+    <div>
+      <Head>
+        <title>สาระเนื้อหา ความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา</title>
+        <meta name="description" content="หน้าความรู้สาระเนื้อหาความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา" />
+
+>>>>>>> 734553101062016d53ab467d1fca18b86da67181
         <meta name="robots" content="index, follow"/>
            <meta name="author" content="adsmanager"/>
            <meta property="og:title" content="ทำการตลาดออนไลน์สายเทา"/>
@@ -54,7 +62,7 @@ export default function Home() {
               <h1>{post.title}</h1>
               {post.img &&  <div className="image-container"> <Image src={post.img} alt={post.title} fill className="image" style={{ objectFit: 'cover' }} />  </div>}
               <h3>{post.h_line}</h3>
-              <p>PPP: {post.ppp}</p>
+              <p> {post.ppp}</p>
             </li>
            
           ))}

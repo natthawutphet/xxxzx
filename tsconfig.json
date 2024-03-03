@@ -30,7 +30,7 @@
     "pages/api/db.js",
     "pages/admin/index.tsx",
     "pages/Facebook/index.jsx"
-, "scripts/generate-sitemap.js"  ],
+, "scripts/generate-sitemap.js", "pages/_app.js"  ],
   "moduleResolution": "node",
   "exclude": [
     "node_modules"

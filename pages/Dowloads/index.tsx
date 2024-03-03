@@ -76,7 +76,6 @@ const App = () => {
 
       <div className="d-flex">
   <div className="p-2 flex-fill"> 
-  
   <Image
       src="/fb.png" 
       alt="Google_Ads_สายเทา" 
