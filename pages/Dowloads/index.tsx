@@ -66,14 +66,16 @@ const App = () => {
            <meta property="og:title" content="website สำหรับทำโฆษณาสายเทา"/>
            <meta property="og:description" content="nload template website สำหรับทำโฆษณาสายเทา ฟรี"/>
   <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
+       
+       
+  <link rel="canonical" href="https://www.service-ads.com/Dowloads" /> 
+
     </Head>
     <div className="container text-center" >
       <h1>Download Files</h1>
 
       <div className="d-flex">
   <div className="p-2 flex-fill"> 
-  
   <Image
       src="/fb.png" 
       alt="Google_Ads_สายเทา" 

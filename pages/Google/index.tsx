@@ -17,10 +17,9 @@ export default function index() {
            <meta property="og:title" content="รับทำโฆษณาGoogleAdsสายเทา"/>
            <meta property="og:description" content="รับทำโฆษณาGoogleAdsสายเทา โฆษณาสายเทาเพื่อธุรกิจของคุณ"/>
     <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
+    <link rel="canonical" href='https://www.service-ads.com/Google' /> 
     </Head>
     
-   
     <div className="container">
 <ul>
   <h3>รายละเอียดบริการ <Link href="/">รับทำโฆษณา Google Ads สายเทา</Link></h3>

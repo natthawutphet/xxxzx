@@ -1,24 +1,25 @@
-import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head'
+import Head from 'next/head';
+import { AppProps } from 'next/app';
 
 
-export default function index() {
+export default function HomePage() {
   return (
     <>
-
       <Head>
-           <title>รับทำโฆษณาGoogleAdsสายเทา โฆษณาสายเทาเพื่อธุรกิจของคุณ</title>
-           <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมือถือชีพ อัตราค่าบริการเพียงเดือนละ 9,900 บาทจบไม่มีค่าใช้จ่ายใดๆเพิ่มเติมทั้งสิ้น มีรีวิวจากลูกค้าจริงให้ชมไม่บิดไม่ทิ้งงานแน่นอน ทางทีมงานมีการรายงานผลงานทุกวัน"/>
+        <title>รับทำโฆษณาออนไลน์สายเทา</title>
+        <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมืออาชีพ" />
+        <meta name="keywords" content="ยิงads,facebook,สายเทา" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="adsmanager" />
+        <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา" />
+        <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา Google, YouTube, Facebook" />
+        <link rel="canonical" href='https://www.service-ads.com/Reviews' />
+      </Head>
+    
 
-           <meta name="robots" content="index, follow"/>
-           <meta name="author" content="adsmanager"/>
-           <meta property="og:title" content="โฆษณาสายเทาเพื่อธุรกิจของคุณ"/>
-           <meta property="og:description" content="รับทำโฆษณาGoogleAdsสายเทา โฆษณาสายเทาเพื่อธุรกิจของคุณ"/>
-  <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
-    </Head>
+
 
     <div className="container">
       

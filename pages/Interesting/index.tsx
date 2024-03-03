@@ -35,7 +35,8 @@ export default function Home() {
            <meta property="og:title" content="ทำการตลาดออนไลน์สายเทา"/>
            <meta property="og:description" content="สาระเนื้อหา ความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา"/>
   <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
+          
+  <link rel="canonical" href="https://www.service-ads.com/Interesting" /> 
       </Head>
 
 

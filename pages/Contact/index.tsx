@@ -1,22 +1,28 @@
-import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import Head from 'next/head'
+import Head from 'next/head';
+import { AppProps } from 'next/app';
 
+interface HomePageProps extends AppProps {
+  data: {
+    urls: string;
+  };
+}
 
-export default function index() {
+export default function HomePage({ data }: HomePageProps) {
   return (
     <>
       <Head>
-           <title>ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook</title>
-           <meta name="description" content="ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook"/>
-           <meta name="robots" content="index, follow"/>
-           <meta name="author" content="adsmanager"/>
-           <meta property="og:title" content="ติดต่อทีมงานบริการ"/>
-           <meta property="og:description" content="ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook"/>
-  <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
-    </Head>
+        <title>รับทำโฆษณาออนไลน์สายเทา</title>
+        <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมืออาชีพ" />
+        <meta name="keywords" content="ยิงads,facebook,สายเทา" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="adsmanager" />
+        <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา" />
+        <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา Google, YouTube, Facebook" />
+        <link rel="canonical" href="https://www.service-ads.com/Contact" />
+      </Head>
+    
 
 <section >
       <div className="container contact-page text-center">

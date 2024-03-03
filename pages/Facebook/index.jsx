@@ -6,6 +6,7 @@ import Head from 'next/head'
 export default function page() {
  
 
+
   return (
     <>
       <Head>
@@ -16,13 +17,16 @@ export default function page() {
            <meta name="author" content="adsmanager"/>
            <meta property="og:title" content="รับทำโฆษณาFacebookAdsสายเทาFacebook สายเทา"/>
            <meta property="og:description" content="รับทำโฆษณาFacebookAdsสายเทา โฆษณาสายเทาเพื่อธุรกิจของคุณ"/>
-           <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
+        
+        
+
+
+           <link rel="canonical" href="https://www.service-ads.com/Facebook" />
 
 
         
       </Head>
-      
+     
       <div className="container">
            
            <h3>รายละเอียดบริการ <Link href="/">รับทำโฆษณาFacebook Ads สายเทา</Link></h3> 
