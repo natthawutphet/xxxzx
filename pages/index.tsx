@@ -3,7 +3,7 @@ import { AppProps } from 'next/app';
 import Header from './Header';
 
 
-export default function HomePage() {
+export default function index() {
   return (
     <>
       <Head>
