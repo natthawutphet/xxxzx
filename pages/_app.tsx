@@ -1,10 +1,7 @@
-import "@/styles/globals.css";
-import '@/styles/style.css'
-import '@/styles/style1.css'
-import '@/styles/style3.css'
+import { AppProps } from 'next/app';
 import Script from 'next/script';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       {/* Google tag (gtag.js) */}
