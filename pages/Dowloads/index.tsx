@@ -61,7 +61,12 @@ const App = () => {
 <Head>
            <title>Download template website สำหรับทำโฆษณาสายเทา ฟรี</title>
            <meta name="description" content="Download template website สำหรับทำโฆษณาสายเทา ฟรี"/>
-
+           <meta name="robots" content="index, follow"/>
+           <meta name="author" content="adsmanager"/>
+           <meta property="og:title" content="website สำหรับทำโฆษณาสายเทา"/>
+           <meta property="og:description" content="nload template website สำหรับทำโฆษณาสายเทา ฟรี"/>
+  <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
+           <link rel="canonical" href="https://www.service-ads.com/"/>
     </Head>
     <div className="container text-center" >
       <h1>Download Files</h1>

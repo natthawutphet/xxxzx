@@ -13,8 +13,8 @@ export default function index() {
            <meta name="author" content="adsmanager"/>
            <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา"/>
            <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา Google, YouTube, Facebook"/>
-           <meta property="og:image" content="https://www.servermanagerads.com/favicon.ico"/>
-           <link rel="canonical" href="https://www.servermanagerads.com/"/>
+           <meta property="og:image" content="https://www.service-ads.com/favicon.ico"/>
+           <link rel="canonical" href="https://www.service-ads.com"/>
            
 
     </Head>

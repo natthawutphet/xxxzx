@@ -10,7 +10,12 @@ export default function index() {
       <Head>
            <title>ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook</title>
            <meta name="description" content="ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook"/>
-
+           <meta name="robots" content="index, follow"/>
+           <meta name="author" content="adsmanager"/>
+           <meta property="og:title" content="ติดต่อทีมงานบริการ"/>
+           <meta property="og:description" content="ติดต่อทีมงานบริการ การตลาดGoogle YouTube Facebook"/>
+  <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
+           <link rel="canonical" href="https://www.service-ads.com/"/>
     </Head>
 
 <section >

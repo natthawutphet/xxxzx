@@ -29,6 +29,13 @@ export default function Home() {
       <Head>
         <title>สาระเนื้อหา ความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา</title>
         <meta name="description" content="หน้าความรู้สาระเนื้อหาความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา" />
+
+        <meta name="robots" content="index, follow"/>
+           <meta name="author" content="adsmanager"/>
+           <meta property="og:title" content="ทำการตลาดออนไลน์สายเทา"/>
+           <meta property="og:description" content="สาระเนื้อหา ความรู้ฟรี จากทีมงานทำการตลาดออนไลน์สายเทา"/>
+  <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
+           <link rel="canonical" href="https://www.service-ads.com/"/>
       </Head>
 
 

@@ -16,8 +16,8 @@ export default function page() {
            <meta name="author" content="adsmanager"/>
            <meta property="og:title" content="รับทำโฆษณาFacebookAdsสายเทาFacebook สายเทา"/>
            <meta property="og:description" content="รับทำโฆษณาFacebookAdsสายเทา โฆษณาสายเทาเพื่อธุรกิจของคุณ"/>
-           <meta property="og:image" content="https://www.servermanagerads.com/img/ads.jpg"/>
-           <link rel="canonical" href="https://www.servermanagerads.com/"/>
+           <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
+           <link rel="canonical" href="https://www.service-ads.com/"/>
 
 
         

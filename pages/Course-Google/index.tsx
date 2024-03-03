@@ -9,7 +9,12 @@ export default function index() {
        <Head>
            <title>คอร์สเรียนโฆษณาออนไลน์ ตลาด Google YouTube</title>
            <meta name="description" content="คอร์สเรียนโฆษณาออนไลน์ ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook"/>
-
+           <meta name="robots" content="index, follow"/>
+           <meta name="author" content="adsmanager"/>
+           <meta property="og:title" content="คอร์สเรียนโฆษณาออนไลน์"/>
+           <meta property="og:description" content="คอร์สเรียนโฆษณาออนไลน์ ตลาด Google YouTube"/>
+  <meta property="og:image" content="https://www.service-ads.com/img/ads.jpg"/>
+           <link rel="canonical" href="https://www.service-ads.com/"/>
     </Head>
 
       <div className="container">
