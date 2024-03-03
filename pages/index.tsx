@@ -2,13 +2,8 @@ import Head from 'next/head';
 import { AppProps } from 'next/app';
 import Header from './Header';
 
-interface HomePageProps extends AppProps {
-  data: {
-    urls: string;
-  };
-}
 
-export default function HomePage({ data }: HomePageProps) {
+export default function HomePage() {
   return (
     <>
       <Head>
@@ -19,7 +14,7 @@ export default function HomePage({ data }: HomePageProps) {
         <meta name="author" content="adsmanager" />
         <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา" />
         <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา Google, YouTube, Facebook" />
-        <link rel="canonical" href={data.urls} />
+        <link rel="canonical" href="https://www.service-ads.com/" />
       </Head>
       <div>
       <Header />

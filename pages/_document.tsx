@@ -66,9 +66,10 @@ const urls = "https://www.service-ads.com";
 
       <body>
       <noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DF4CHLK"
-  height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
-</noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=G-76WMEE9M6S"
+    height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
+  </noscript>
+
 
 
         < Nav />
