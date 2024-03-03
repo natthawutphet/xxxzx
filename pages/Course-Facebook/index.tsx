@@ -15,16 +15,6 @@ export default function HomePage({ data }: HomePageProps) {
       <Head>
         <title>รับทำโฆษณาออนไลน์สายเทา</title>
         <meta name="description" content="ทำโฆษณาเว็บไซต์ต่างๆด้วยทีมงานมืออาชีพ" />
-<<<<<<< HEAD
-        <meta name="keywords" content="ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,รับยิงแอด,ads,รับทำโฆษณา,รับโฆษณา,Facebook,การตลาด,โฆษณาออนไลน์,เว็บไซต์,ตลาดเป้าหมาย,โฆษณาบนโซเชียลมีเดีย,Google Ads,การโฆษณาบน Facebook,การโฆษณาออนไลน์บนสื่อต่าง ๆ,การตลาดออนไลน์,การโปรโมท,โฆษณา Facebook,การโฆษณา Google,การโฆษณาสินค้า,การโฆษณาโปรโมชั่น,วิธีการโฆษณา,ความสำเร็จในการตลาด,บริการโฆษณา,การตลาดออนไลน์บน Facebook,การโฆษณาบนเว็บ,การวางแผนโฆษณา,รับจ้างโฆษณา" />
-<meta name="keywords" content="รับทำ seo สายเทา, รับทำ seo สายดำ, แอดสายเทา, รับยิงแอดสายเทา, กูเกิ้ลแอดสายเทา, รับทํา google ads, สายเทา seo สายเทา, รับทำโฆษณาสายเทา, ทำการตลาดสายเทา, ads สายเทา, รับทํา seo สายเทา, ยิงแอดสายเทา, โปรโมทสายเทา, facebook ads, สายเทา, การตลาดสายเทา, ยิงadsสายเทา, ยิงแอด google สายเทา, รับทำการตลาดสายเทา, รับจ้างยิงแอดสายเทา, โฆษณาสายเทา, ตลาดสายเทา, ads, สายเทา, แอดสายเทา, ยิงแอดสายเทา, pantip ยิงแอดสายเทาfacebook, ทําseoสายเทา, ยิงadsfacebookสายเทา, ยิงแอดสายเทาเฮียบอย, รับทำเว็บสายเทา, การทำseoสายเทา, ทำseoสายเทา, ยิงแอดyoutubeสายเทา, ยิงแอดสายเทาราคา, ยิงแอดสายเทา2022, ยิงแอดสายดำ, รับจ้างแอดสายเทา, ยิงแอดสายเทาgoogle, ตลาดสีเทา, แอดสีเทา, adsสีเทา, กราฟฟิกสายเทา, ยิงแอดเทา, รับยิงแอดfacebookสายเทา, รูปยิงแอดสายเทา, รับจ้างสายเทา, รับโฆษณาสายเทา " />
-
-
-
-
-
-=======
->>>>>>> 734553101062016d53ab467d1fca18b86da67181
         <meta name="keywords" content="ยิงads,facebook,สายเทา" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="adsmanager" />
@@ -49,11 +39,7 @@ export default function HomePage({ data }: HomePageProps) {
             <img src="img/class.jpg" className='cfb' alt="คอร์สเรียนโฆษณา" />
             </div>
             <div className="text-center">
-<<<<<<< HEAD
-            <img src="img/Facebook.png" className='fb' alt="โฆษณาFacebookสายเทา" />
-=======
             <img src="/img/fb-logo.jpg" className='fb' alt="โฆษณาFacebookสายเทา" />
->>>>>>> 734553101062016d53ab467d1fca18b86da67181
 </div>
 <hr />
 <ul>
@@ -79,11 +65,7 @@ export default function HomePage({ data }: HomePageProps) {
 </ul>
 <Link className="line" href="https://lin.ee/JwrDPgA">
 
-<<<<<<< HEAD
-<img src="line.gif" className="linec" alt="line" />
-=======
 <img src="line.gif" className='lineb' alt="line" />
->>>>>>> 734553101062016d53ab467d1fca18b86da67181
 
     </Link>
 </div>

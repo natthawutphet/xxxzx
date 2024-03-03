@@ -9,25 +9,9 @@ import Head from 'next/head';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-    <Head>
- <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-QLP9PHNXPG"
-        strategy="afterInteractive"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-      >
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-QLP9PHNXPG');
-        `}
-      </Script>
+  
       <Component {...pageProps} />
-      </Head>
+    
     </>
   );
 }
