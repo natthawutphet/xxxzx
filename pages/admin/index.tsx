@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Link from 'next/link';
 
 interface Post {
   id: number;
@@ -75,8 +76,13 @@ const AddPage: React.FC = () => {
       <button type="submit" className='btn btn-success' >Submit</button>
     
       </form>
-      
-      <div>
+
+<br /><br />
+      <Link href="https://img.servermanagerads.com/" target='_blank' className='m-3'> เว็บฝากรูป </Link>
+     
+      <br /><br />
+
+ <div>
     
         {posts.map(post => (
           <div key={post.id}>

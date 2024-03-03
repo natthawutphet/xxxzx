@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 import Nav from "./Nav";
 import Footer from "./Footer";
-
+import Script from 'next/script'
 
 
 export default function Document() {
@@ -10,38 +10,69 @@ export default function Document() {
     <Html lang="en">
     
     <Head>
-  
-    <script dangerouslySetInnerHTML={{ 
-  __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5DF4CHLK');` 
-}} />
+
+    <Script
+            strategy="afterInteractive"
+            src={`https://www.googletagmanager.com/gtag/js?id=AW-16457513085`}
+          />
+          <Script
+            id="google-ads"
+            strategy="afterInteractive"
+          >
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'AW-16457513085');
+            `}
+          </Script>
+          {/* Optional: Conversion Tracking */}
+          <Script id="google-ads-conversion-tracking">
+            {`
+              gtag('event', 'conversion', {'send_to': 'AW-16457513085/LABEL'});
+            `}
+          </Script>
 
 
+          <Script
+            strategy="afterInteractive"
+            src={`https://www.googletagmanager.com/gtag/js?id=G-QLP9PHNXPG`}
+          />
+          <Script
+            id="google-analytics"
+            strategy="afterInteractive"
+          >
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-QLP9PHNXPG');
+            `}
+          </Script>
 
 <meta name="keywords" content="ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,รับยิงแอด,ads,รับทำโฆษณา,รับโฆษณา,Facebook,การตลาด,โฆษณาออนไลน์,เว็บไซต์,ตลาดเป้าหมาย,โฆษณาบนโซเชียลมีเดีย,Google Ads,การโฆษณาบน Facebook,การโฆษณาออนไลน์บนสื่อต่าง ๆ,การตลาดออนไลน์,การโปรโมท,โฆษณา Facebook,การโฆษณา Google,การโฆษณาสินค้า,การโฆษณาโปรโมชั่น,วิธีการโฆษณา,ความสำเร็จในการตลาด,บริการโฆษณา,การตลาดออนไลน์บน Facebook,การโฆษณาบนเว็บ,การวางแผนโฆษณา,รับจ้างโฆษณา" />
 <meta name="keywords" content="รับทำ seo สายเทา, รับทำ seo สายดำ, แอดสายเทา, รับยิงแอดสายเทา, กูเกิ้ลแอดสายเทา, รับทํา google ads, สายเทา seo สายเทา, รับทำโฆษณาสายเทา, ทำการตลาดสายเทา, ads สายเทา, รับทํา seo สายเทา, ยิงแอดสายเทา, โปรโมทสายเทา, facebook ads, สายเทา, การตลาดสายเทา, ยิงadsสายเทา, ยิงแอด google สายเทา, รับทำการตลาดสายเทา, รับจ้างยิงแอดสายเทา, โฆษณาสายเทา, ตลาดสายเทา, ads, สายเทา, แอดสายเทา, ยิงแอดสายเทา, pantip ยิงแอดสายเทาfacebook, ทําseoสายเทา, ยิงadsfacebookสายเทา, ยิงแอดสายเทาเฮียบอย, รับทำเว็บสายเทา, การทำseoสายเทา, ทำseoสายเทา, ยิงแอดyoutubeสายเทา, ยิงแอดสายเทาราคา, ยิงแอดสายเทา2022, ยิงแอดสายดำ, รับจ้างแอดสายเทา, ยิงแอดสายเทาgoogle, ตลาดสีเทา, แอดสีเทา, adsสีเทา, กราฟฟิกสายเทา, ยิงแอดเทา, รับยิงแอดfacebookสายเทา, รูปยิงแอดสายเทา, รับจ้างสายเทา, รับโฆษณาสายเทา " />
 
-<link rel="canonical" href="https://www.servermanagerads.com/" />
+<link rel="canonical" href="https://www.service-ads.com/" />
 <meta name="robots" content="index, follow" />
 <meta property="og:title" content="รับทำโฆษณาออนไลน์สายเทา" />
 <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook" />
-<meta property="og:url" content="https://www.servermanagerads.com/" />
+<meta property="og:url" content="https://www.service-ads.com/" />
 <meta property="og:type" content="website" />
 
-<meta name="twitter:card" content="https://www.servermanagerads.com/img/logo.png" />
+<meta name="twitter:card" content="https://www.service-ads.com/img/logo.png" />
 
 
-<meta property="og:image" content="https://www.servermanagerads.com/img/logo.png" />
+<meta property="og:image" content="https://www.service-ads.com/img/logo.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.servermanagerads.com" />
 
-<meta name="twitter:card" content="https://www.servermanagerads.com/img/logo.png" />
-<meta name="twitter:image" content="https://www.servermanagerads.com/img/logo.png" />
+<meta name="twitter:card" content="https://www.service-ads.com/img/logo.png" />
+<meta name="twitter:image" content="https://www.service-ads.com/img/logo.png" />
 <meta name="twitter:title" content="Tiรับทำโฆษณาออนไลน์สายเทา" />
 <meta name="twitter:description" content="รับทำโฆษณาออนไลน์สายเทา ผู้เชี่ยวชาญด้านการตลาดบน Google, YouTube และ Facebook" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />

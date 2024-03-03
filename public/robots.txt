@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://servermanagerads.com
+Host: https://www.service-ads.com/
 
 # Sitemaps
-Sitemap: https://servermanagerads.com/sitemap.xml
+Sitemap: https://www.service-ads.com/sitemap.xml
