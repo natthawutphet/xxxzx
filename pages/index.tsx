@@ -12,9 +12,9 @@ export default function index() {
            <meta name="robots" content="index, follow"/>
            <meta name="author" content="adsmanager"/>
            <meta property="og:title" content="ชื่อหน้าเว็บไซต์สำหรับการแชร์"/>
-           <meta property="og:description" content="รายละเอียดเกี่ยวกับเนื้อหาของเว็บไซต์สำหรับการแชร์"/>
-           <meta property="og:image" content="URL ของรูปภาพ"/>
-           <link rel="canonical" href="https://www.service-ads.com/"/>
+           <meta property="og:description" content="รับทำโฆษณาออนไลน์สายเทา Google, YouTube, Facebook"/>
+           <meta property="og:image" content="https://www.servermanagerads.com/img/ads.jpg"/>
+           <link rel="canonical" href="https://www.servermanagerads.com/"/>
 
     </Head>
     
