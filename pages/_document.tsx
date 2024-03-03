@@ -2,7 +2,6 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 import Nav from "./Nav";
 import Footer from "./Footer";
-import Script from 'next/script';
 
 
 export default function Document() {
@@ -15,20 +14,6 @@ const urls = "https://www.service-ads.com";
     <Html lang="en">
     
     <Head>
-  
-    <Script
-            strategy="afterInteractive"
-            src={`https://www.googletagmanager.com/gtag/js?id=G-76WMEE9M6S`}
-          />
-          <Script id="google-tag-manager" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-76WMEE9M6S');
-            `}
-          </Script>
-
 
 <meta name="keywords" content="ยิงads,facebook,สายเทา,โฆษณา,ยิงads facebook สายเทา,รับยิงads,รับยิงแอด สายเทา,facebook ads,google ads,google,รับยิงแอด,ads,รับทำโฆษณา,รับโฆษณา,Facebook,การตลาด,โฆษณาออนไลน์,เว็บไซต์,ตลาดเป้าหมาย,โฆษณาบนโซเชียลมีเดีย,Google Ads,การโฆษณาบน Facebook,การโฆษณาออนไลน์บนสื่อต่าง ๆ,การตลาดออนไลน์,การโปรโมท,โฆษณา Facebook,การโฆษณา Google,การโฆษณาสินค้า,การโฆษณาโปรโมชั่น,วิธีการโฆษณา,ความสำเร็จในการตลาด,บริการโฆษณา,การตลาดออนไลน์บน Facebook,การโฆษณาบนเว็บ,การวางแผนโฆษณา,รับจ้างโฆษณา" />
 <meta name="keywords" content="รับทำ seo สายเทา, รับทำ seo สายดำ, แอดสายเทา, รับยิงแอดสายเทา, กูเกิ้ลแอดสายเทา, รับทํา google ads, สายเทา seo สายเทา, รับทำโฆษณาสายเทา, ทำการตลาดสายเทา, ads สายเทา, รับทํา seo สายเทา, ยิงแอดสายเทา, โปรโมทสายเทา, facebook ads, สายเทา, การตลาดสายเทา, ยิงadsสายเทา, ยิงแอด google สายเทา, รับทำการตลาดสายเทา, รับจ้างยิงแอดสายเทา, โฆษณาสายเทา, ตลาดสายเทา, ads, สายเทา, แอดสายเทา, ยิงแอดสายเทา, pantip ยิงแอดสายเทาfacebook, ทําseoสายเทา, ยิงadsfacebookสายเทา, ยิงแอดสายเทาเฮียบอย, รับทำเว็บสายเทา, การทำseoสายเทา, ทำseoสายเทา, ยิงแอดyoutubeสายเทา, ยิงแอดสายเทาราคา, ยิงแอดสายเทา2022, ยิงแอดสายดำ, รับจ้างแอดสายเทา, ยิงแอดสายเทาgoogle, ตลาดสีเทา, แอดสีเทา, adsสีเทา, กราฟฟิกสายเทา, ยิงแอดเทา, รับยิงแอดfacebookสายเทา, รูปยิงแอดสายเทา, รับจ้างสายเทา, รับโฆษณาสายเทา " />
@@ -65,10 +50,7 @@ const urls = "https://www.service-ads.com";
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
 
       <body>
-      <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=G-76WMEE9M6S"
-    height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
-  </noscript>
+    
 
 
 
