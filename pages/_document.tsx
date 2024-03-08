@@ -58,7 +58,12 @@ const urls = "https://www.service-ads.com";
 
         
  
+    <div className="lines">
 
+<Link href='/line' >   
+<img src="line.png" className="rounded-circle"  alt="line" />
+</Link>
+</div>
    
 
 
